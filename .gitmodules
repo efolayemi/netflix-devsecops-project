@@ -1,0 +1,6 @@
+[submodule "app/DevSecOps-Project"]
+	path = app/DevSecOps-Project
+	url = https://github.com/efolayemi/DevSecOps-Project.git
+[submodule "DevSecOps-Project"]
+	path = DevSecOps-Project
+	url = https://github.com/efolayemi/DevSecOps-Project.git
