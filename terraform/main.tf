@@ -32,6 +32,7 @@ provider "aws" {
       Region      = var.aws_region
     }
   }
+
 }
 
 # Get current AWS account info
@@ -507,7 +508,7 @@ resource "aws_eks_node_group" "main" {
   subnet_ids      = aws_subnet.private[*].id
 
   capacity_type  = "ON_DEMAND"
-  instance_types = [var.node_instance_type]
+  #instance_types = [var.node_instance_type]
 
   scaling_config {
     desired_size = var.desired_nodes
